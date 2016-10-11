@@ -3,7 +3,7 @@ use ieee.std_logic_1164.all;
 entity cHamming is
 	port(
 		A,B,C,D: in std_logic;
-		C1,C2,A0,C3,B0,C0,D0: out std_logic;
+		C1,C2,A0,C3,B0,C0,D0: out std_logic
 		);
 
 attribute pin_numbers of suma: entity is
